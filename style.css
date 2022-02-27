@@ -1,0 +1,116 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner{
+background-image: linear-gradient(-255deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 50%),  url(../../images/lavande.jpeg); 
+color: white ;
+padding: 150px 0px; 
+margin: 0px; 
+background-size: cover; 
+background-position: center;
+  }
+
+.banner {
+  background-image: url(images/Fichier 5.png);
+  color: darkblue;
+  padding: 150px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.banner h1 {
+  font-size: 60px;
+}
+
+.banner h2 {
+  font-size: 45 px;
+  color: darkred;
+  opacity: 0.8;
+  margin-bottom: 50 px;
+}
+.btn-blue{
+  background-color: #0C258B;
+  padding: 10px 30px; 
+  color: white;
+  font-weight: bold; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-blue {
+  background-color: nude;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: goldenrod;
+  font-weight: bold;
+  font-family: 'Amaranth', sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 300px;
+  padding: 20px;
+  display: flex
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(1, 0, 0, 1);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+}
+
+.card img {
+  width: 240px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+
+body {
+  font-family: 'Amaranth', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(images/fond.jpg);
+}
+h1, h2, h3 {
+  font-family: 'Amaranth', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
